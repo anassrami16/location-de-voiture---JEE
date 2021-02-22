@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +12,6 @@
 	<link rel="stylesheet" href="${pageContext.request.contextPath}/res/css/bootstrap.min.css">
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="${pageContext.request.contextPath}/res/style.css">
-	<link rel="stylesheet" href="res/css/navbar.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/png" href="${pageContext.request.contextPath}/res/images/icons/favicon.ico" />
@@ -25,8 +23,24 @@
 <body>
 
 	<!-- Navigation -->
-	<c:import url="/navbar.jsp"/>
-	<!-- End Navigation -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Louezz</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria controls="navbarResponsive" aria-expended="false" aria-label="toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="login.html" class="nav-link active"></a></li>
+					<li class="nav-item"><a href="" class="nav-link">se connecter</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Louer ma voiture</a></li>
+					
+				</ul>
+			</div>
+			
+		</div>
+		
+	</nav>
 
 	<!-- End Navigation -->
 	<div class="wrap">
