@@ -12,7 +12,7 @@
   
   <servlet>
   	<servlet-name>Home</servlet-name>
-  	<servlet-class>com.carrental.Home</servlet-class>
+  	<servlet-class>com.Servelet.Home</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>Home</servlet-name>
@@ -21,7 +21,7 @@
   
     <servlet>
   	<servlet-name>Login</servlet-name>
-  	<servlet-class>com.carrental.Login</servlet-class>
+  	<servlet-class>com.Servelet.Login</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>Login</servlet-name>
@@ -30,7 +30,7 @@
   
   <servlet>
   	<servlet-name>Signup</servlet-name>
-  	<servlet-class>com.carrental.Signup</servlet-class>
+  	<servlet-class>com.Servelet.Signup</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>Signup</servlet-name>
@@ -39,7 +39,7 @@
   
     <servlet>
   	<servlet-name>Voiture</servlet-name>
-  	<servlet-class>com.carrental.Voiture</servlet-class>
+  	<servlet-class>com.Servelet.Voiture</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>Voiture</servlet-name>
